@@ -1,0 +1,146 @@
+*{
+    font-family: itc-avant-garde-gothic-pro,sans-serif;
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    line-height: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.width-100{
+    width: 100%;
+}
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bodydiv{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 390px;
+    width: 100%;
+}
+
+#stdvideodiv{
+    width: 100%;
+}
+
+#stdvid{
+    width: 100%;
+}
+
+#biodiv{
+    display: flex;
+    height: 96px;
+    margin: 24px 0px;
+}
+
+#bioleft{
+
+}
+#bioright{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px 0px 0px 12px;
+}
+#bioname{
+    font-size: 20px;
+    font-weight: 700;
+}
+#biodesc{
+    font-size: 14px;
+}
+
+#biologodiv{
+    height: 96px;
+    width: 96px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.studiopreview{
+    background-position: center;
+    background-size: cover;
+    height: 240px;
+    margin: 12px 0px;
+    border-radius: 8px;
+}
+
+#stdprva{
+    background-image: url('/assets/gallery/1.jpg');
+}
+#stdprvb{
+    background-image: url('/assets/gallery/2.jpg');
+}
+
+.studiopreview a{
+    color: white;
+    position: relative;
+}
+
+.stdbtncont{
+    font-weight: 200;
+    letter-spacing: 1px;
+    position: relative;
+    left: calc(100% - 132px);
+    top: calc(100% - 44px);
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 120px;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 0px 12px 0px 12px;
+    transition: 100ms ease-in-out;
+}
+
+.stdbtncont:hover{
+    padding: 0px 6px 0px 12px;
+    transition: 100ms ease-in-out;
+}
+
+#linkcont{
+
+}
+
+.alllinks{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 48px;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 0px 16px 0px 12px;
+    transition: 100ms ease-in-out;
+    margin: 8px 0px;
+}
+
+.alllinks:hover{
+    padding: 0px 12px 0px 12px;
+    transition: 100ms ease-in-out;
+}
+
+.linktitle{
+    margin-left: 8px;
+}
+
+.linkleft{
+    display: flex;
+    align-items: center;
+}
+
+.linkright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

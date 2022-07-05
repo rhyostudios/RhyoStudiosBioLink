@@ -1,0 +1,145 @@
+*{
+    font-family: itc-avant-garde-gothic-pro,sans-serif;
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    line-height: 100%;
+}
+.mrgn-side-6{
+    margin: 0px 3px;
+}
+.mrgn-r-3{
+    margin-right: 3px;
+}
+.mrgn-l-3{
+    margin-left: 3px;
+}
+#bio{
+    width: 100%;
+    max-width: 390px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 24px;
+}
+#bioleft{
+
+}
+#biologodiv{
+    width: 96px;
+    height: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+#biologo{
+    width: 100%;
+    border-radius: 50%;
+}
+#bioright{
+    margin-left: 16px;
+}
+#bioname{
+    font-size: 24px;
+}
+#biodesc{
+    font-size: 14px;
+    font-weight: 200;
+}
+#biosocials{
+    display: flex;
+    align-items: center;
+    margin-top: 6px;
+}
+.bslinkclick{
+    color: black;
+    text-decoration: none;
+}
+.bslinks{
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.6;
+    transition: 100ms ease-in-out;
+}
+.bslinks:hover{
+    opacity: 1;
+    transition: 100ms ease-in-out;
+}
+#socialsdiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: 120px;
+    height: 36px;
+}
+#servicesdiv{
+    width: 100%;
+    max-width: 390px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 24px;
+    background-color: rgb(240, 240, 240);
+    border-radius: 12px;
+}
+#srvstitle{
+    font-size: 24px;
+    font-weight: 500;
+    margin: 12px;
+}
+#studioa{
+    width: 100%;
+    max-width: 390px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 24px;
+    background-color: rgb(240, 240, 240);
+    border-radius: 12px;
+}
+.studiotitle{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 24px 0px 0px 24px;
+}
+.studiodesc{
+    
+}
+#hmvid{
+    width: 390px;
+}
+#homevideo{
+    width: 100%;
+    max-width: 390px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.studiogallery{
+    height: 240px;
+    display: flex;
+    overflow: scroll;
+    margin-left: 24px;
+    margin-top: 24px;
+}
+.studiogallery img{
+    height: 100%;
+    margin-right: 12px;
+}
